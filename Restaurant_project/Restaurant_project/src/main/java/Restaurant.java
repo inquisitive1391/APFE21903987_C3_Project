@@ -15,6 +15,9 @@ public class Restaurant {
         this.location = location;
         this.openingTime = openingTime;
         this.closingTime = closingTime;
+        //default menu items
+        this.menu.add(new Item("Lemon Rice",73));
+        this.menu.add(new Item("Sambar Rice",45));
     }
 
     public boolean isRestaurantOpen() {
